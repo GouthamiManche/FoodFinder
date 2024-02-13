@@ -1,0 +1,223 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+ *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Acme";
+}
+
+.hero {
+    z-index: 5;
+    position: fixed;
+    top: 40vh;
+    right: 0;
+    padding: 2vw;
+}
+
+.heroo {
+    color: #4F0E0E;
+}
+
+
+.serb {
+    width: 20vw;
+    height: 10vh;
+    border-radius: 2vw;
+    background: #FFDADA;
+    color: black;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    border: none;
+    box-shadow: 5px 10px 18px #b88;
+}
+
+    .serb:hover {
+        background: white;
+        color: #4F0E0E;
+    }
+
+
+input:focus {
+    outline: none;
+}
+
+ a {
+     text-decoration: none;
+    color: red;
+ }
+#nav {
+    height: 5vh;
+}
+
+#searchbar {
+    text-align: center;
+
+}
+
+#searcher {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    z-index: 2;
+    position: fixed;
+    top: 4.9vw;
+    left: 36vw;
+    font-size: 2vw;
+    background: white;
+    border-radius: 5vw;
+    padding: 0.5vw 1.5vw;
+    box-shadow: 5px 10px 18px #b88;
+}
+
+#ContentPlaceHolder1_search {
+    border: none;
+    width: 25vw;
+    height:2vw;
+    margin-bottom: 7px;
+    font-size: 1.2vw;
+}
+
+#ContentPlaceHolder1_searchbtnn {
+    height: 2vw;
+    margin-bottom: -7px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    margin-top: 14vw;
+    padding:3vw;
+    overflow: scroll;
+}
+
+.recipe {
+    display: block;
+    margin: 0.7vw;
+    background: #FFF1F1;
+    border-radius: 10%;
+    box-shadow: 5px 10px 18px #b88;
+    table-layout: fixed;
+    position: relative;
+    z-index: 1;
+    padding: 0.5vw;
+}
+
+td {
+    width: 300px;
+    overflow: hidden;
+}
+tr{
+    padding:0.6vw;
+}
+
+.photo{
+    width:300px;
+    height:200px;
+    border-radius:10%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:transparent;
+
+}
+
+li {
+    
+    float:right;
+}
+
+    li:last-child {
+        border-right: none;
+    }
+
+    li a {
+        font-size: 1.5vw;
+        display: block;
+        color: black;
+        padding: 1.5vw;
+        text-align: center;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: #4F0E0E;
+            color: white;
+        }
+
+
+            li a:hover:not(.active) {
+                color:white;
+            }
+
+li:nth-child(1) {
+    float: left;
+    
+}
+
+li:nth-child(1) a:hover {
+    background-color: transparent;  
+    color:black;
+}
+
+.naam {
+    font-family: "Rancho";
+    font-size: 2.3vw;
+    padding-bottom: 0;
+}
+
+.active {
+    background-color: #FFDADA;
+}
+.cakephoto{
+    width:100vw;
+    height:99.35vh;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100vw;
+    height: 10vh;
+}
+
+#about {
+    background: #FFF1F1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.center {
+    margin: auto;
+    width: 60vw;
+    padding-top: 30vh;
+    text-align: center;
+}
+
+.center > h1 {
+
+}
+
+    .center > h1 span {
+        font-size: 1.5vw;
+        color: #4F0E0E;
+    }
+
+    .center > p {
+        font-size: 1.5vw;
+    }

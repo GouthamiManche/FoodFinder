@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="RecipeWEB.Site1" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+        <div>
+     <nav id="nav">  
+        <ul>  
+           <li><a href="Home.aspx" class="naam">FoodFinder</a></li>
+           <li><a href="Home.aspx" class="active">Home</a></li>  
+           <li><a href="Search.aspx">Search</a></li>  
+        <li><a href="AboutUs.aspx">AboutUs</a></li>   
+        </ul>  
+    </nav>  
+        </div>
+        <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
